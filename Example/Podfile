@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HMCountryCode_Example' do
+  pod 'HMCountryCode', :path => '../'
+
+  target 'HMCountryCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
