@@ -12,6 +12,13 @@
 		3E39F76B455D3814CFCAFD3610A1F04B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		71DD876BFE7A24FA1F1088835CFB5F00 /* Pods-HMCountryCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9BFFCC556107177338DFD0966A7F7 /* Pods-HMCountryCode_Tests-dummy.m */; };
 		73CD2DF81CCA521593A0D85C2E97064D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7E63A77C2BEE25C000743FA7 /* CountryDropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7772BEE25C000743FA7 /* CountryDropdownView.swift */; };
+		7E63A77D2BEE25C000743FA7 /* CountryDropdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7782BEE25C000743FA7 /* CountryDropdownViewModel.swift */; };
+		7E63A77E2BEE25C000743FA7 /* CountryCode.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E63A7792BEE25C000743FA7 /* CountryCode.json */; };
+		7E63A77F2BEE25C000743FA7 /* CountryCodeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A77A2BEE25C000743FA7 /* CountryCodeVM.swift */; };
+		7E63A7802BEE25C000743FA7 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A77B2BEE25C000743FA7 /* CountryCode.swift */; };
+		7E63A7822BEE2B9600743FA7 /* CountryCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7812BEE2B9600743FA7 /* CountryCodeTextField.swift */; };
+		7E63A7842BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7832BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift */; };
 		9293913CCA00A2879CE48BFFD89E309B /* Pods-HMCountryCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34000C985082706307E62C8F1CA4A84B /* Pods-HMCountryCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A63558105F20FFC76357715377D1F7D2 /* Pods-HMCountryCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B35EF9BF7F3F624A96570B93A81F6 /* Pods-HMCountryCode_Example-dummy.m */; };
 		AA013E4AFFA60A71B7D43ACADD4CF8DA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF329F2A9DA869FA47A31E77D9D39EF /* ReplaceMe.swift */; };
@@ -37,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022E6FAE303D1D941C9F0B6381B885C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		022E6FAE303D1D941C9F0B6381B885C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		08E9DEE1C94B78E2275EC8829D40F2B9 /* HMCountryCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HMCountryCode-Info.plist"; sourceTree = "<group>"; };
 		0C6C8F93A50EC71EA7EDD0FA8F725B81 /* Pods-HMCountryCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMCountryCode_Example-frameworks.sh"; sourceTree = "<group>"; };
 		16F597E8D1355C29A782DFA466CAC3A1 /* Pods-HMCountryCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMCountryCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,18 +54,25 @@
 		34000C985082706307E62C8F1CA4A84B /* Pods-HMCountryCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMCountryCode_Tests-umbrella.h"; sourceTree = "<group>"; };
 		38FB0069606243DBB89C6625D2132CEB /* Pods-HMCountryCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMCountryCode_Example.modulemap"; sourceTree = "<group>"; };
 		3BF329F2A9DA869FA47A31E77D9D39EF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HMCountryCode/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		42FD18EEF7B6F453FD38FB651BB23EB9 /* Pods-HMCountryCode_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HMCountryCode_Example"; path = Pods_HMCountryCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FD18EEF7B6F453FD38FB651BB23EB9 /* Pods_HMCountryCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMCountryCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6C772D92C93571C00FA7CD8B912E6D /* Pods-HMCountryCode_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMCountryCode_Tests-Info.plist"; sourceTree = "<group>"; };
-		4D3009790CE727A8F2153CD87A960D73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4D3009790CE727A8F2153CD87A960D73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55E7A093A34AF6E8A9D909B6A490EA51 /* Pods-HMCountryCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMCountryCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		569D9E22EDA3E31D275F85E23CB7640E /* Pods-HMCountryCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMCountryCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		59A4F7FFE0D3A637FF0AFC72DB543D3E /* HMCountryCode */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMCountryCode; path = HMCountryCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A4F7FFE0D3A637FF0AFC72DB543D3E /* HMCountryCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMCountryCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F1A461D4EED28B3822798B4F7A19FA /* Pods-HMCountryCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMCountryCode_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8E39F3DA6E4C1DD95EBBAD7910CC83D9 /* Pods-HMCountryCode_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HMCountryCode_Tests"; path = Pods_HMCountryCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E63A7772BEE25C000743FA7 /* CountryDropdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryDropdownView.swift; path = HMCountryCode/Classes/CountryDropdownView.swift; sourceTree = "<group>"; };
+		7E63A7782BEE25C000743FA7 /* CountryDropdownViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryDropdownViewModel.swift; path = HMCountryCode/Classes/CountryDropdownViewModel.swift; sourceTree = "<group>"; };
+		7E63A7792BEE25C000743FA7 /* CountryCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CountryCode.json; path = HMCountryCode/Classes/CountryCode.json; sourceTree = "<group>"; };
+		7E63A77A2BEE25C000743FA7 /* CountryCodeVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCodeVM.swift; path = HMCountryCode/Classes/CountryCodeVM.swift; sourceTree = "<group>"; };
+		7E63A77B2BEE25C000743FA7 /* CountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = HMCountryCode/Classes/CountryCode.swift; sourceTree = "<group>"; };
+		7E63A7812BEE2B9600743FA7 /* CountryCodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTextField.swift; sourceTree = "<group>"; };
+		7E63A7832BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTextField_Line.swift; sourceTree = "<group>"; };
+		8E39F3DA6E4C1DD95EBBAD7910CC83D9 /* Pods_HMCountryCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMCountryCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		971E9B7ACBC35053D1FF1621F8C3AFEF /* Pods-HMCountryCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMCountryCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9BBFF06A9E582D9067E8E67B6B05B4F9 /* HMCountryCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMCountryCode-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4681D2960E6561065D6CB65134C71B1 /* HMCountryCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMCountryCode-dummy.m"; sourceTree = "<group>"; };
 		B1BD65466C0EDDEFF3A5B783526557F5 /* HMCountryCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMCountryCode.modulemap; sourceTree = "<group>"; };
 		B5850449AB52218046203721EBA4FB10 /* HMCountryCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMCountryCode.release.xcconfig; sourceTree = "<group>"; };
@@ -69,7 +83,7 @@
 		D46B35EF9BF7F3F624A96570B93A81F6 /* Pods-HMCountryCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMCountryCode_Example-dummy.m"; sourceTree = "<group>"; };
 		DEB9BFFCC556107177338DFD0966A7F7 /* Pods-HMCountryCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMCountryCode_Tests-dummy.m"; sourceTree = "<group>"; };
 		EAA03C72D0FA22A9D52B7781AC6C7DFD /* Pods-HMCountryCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMCountryCode_Tests.modulemap"; sourceTree = "<group>"; };
-		FDAB7C5A923789FA4450AD4D918D70A2 /* HMCountryCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HMCountryCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDAB7C5A923789FA4450AD4D918D70A2 /* HMCountryCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HMCountryCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +141,9 @@
 		0CEA0B53E84E234A2BD7FE569B4A3F46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59A4F7FFE0D3A637FF0AFC72DB543D3E /* HMCountryCode */,
-				42FD18EEF7B6F453FD38FB651BB23EB9 /* Pods-HMCountryCode_Example */,
-				8E39F3DA6E4C1DD95EBBAD7910CC83D9 /* Pods-HMCountryCode_Tests */,
+				59A4F7FFE0D3A637FF0AFC72DB543D3E /* HMCountryCode.framework */,
+				42FD18EEF7B6F453FD38FB651BB23EB9 /* Pods_HMCountryCode_Example.framework */,
+				8E39F3DA6E4C1DD95EBBAD7910CC83D9 /* Pods_HMCountryCode_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,9 +210,16 @@
 		C36879104FF112ABB03F31E33A757B8F /* HMCountryCode */ = {
 			isa = PBXGroup;
 			children = (
+				7E63A7792BEE25C000743FA7 /* CountryCode.json */,
+				7E63A77B2BEE25C000743FA7 /* CountryCode.swift */,
+				7E63A77A2BEE25C000743FA7 /* CountryCodeVM.swift */,
+				7E63A7772BEE25C000743FA7 /* CountryDropdownView.swift */,
+				7E63A7782BEE25C000743FA7 /* CountryDropdownViewModel.swift */,
 				3BF329F2A9DA869FA47A31E77D9D39EF /* ReplaceMe.swift */,
 				835AFC941E357B9B467C92D7ADF5FAEC /* Pod */,
 				691F997C20389E0812D99E7BDB8AA130 /* Support Files */,
+				7E63A7812BEE2B9600743FA7 /* CountryCodeTextField.swift */,
+				7E63A7832BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift */,
 			);
 			name = HMCountryCode;
 			path = ../..;
@@ -268,7 +289,7 @@
 			);
 			name = HMCountryCode;
 			productName = HMCountryCode;
-			productReference = 59A4F7FFE0D3A637FF0AFC72DB543D3E /* HMCountryCode */;
+			productReference = 59A4F7FFE0D3A637FF0AFC72DB543D3E /* HMCountryCode.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4E90D2EA3FD018DC16CDF9957DBF2DBD /* Pods-HMCountryCode_Tests */ = {
@@ -287,7 +308,7 @@
 			);
 			name = "Pods-HMCountryCode_Tests";
 			productName = Pods_HMCountryCode_Tests;
-			productReference = 8E39F3DA6E4C1DD95EBBAD7910CC83D9 /* Pods-HMCountryCode_Tests */;
+			productReference = 8E39F3DA6E4C1DD95EBBAD7910CC83D9 /* Pods_HMCountryCode_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		67E740F0D549DC720BAB00A96BFB7925 /* Pods-HMCountryCode_Example */ = {
@@ -306,7 +327,7 @@
 			);
 			name = "Pods-HMCountryCode_Example";
 			productName = Pods_HMCountryCode_Example;
-			productReference = 42FD18EEF7B6F453FD38FB651BB23EB9 /* Pods-HMCountryCode_Example */;
+			productReference = 42FD18EEF7B6F453FD38FB651BB23EB9 /* Pods_HMCountryCode_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -350,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E63A77E2BEE25C000743FA7 /* CountryCode.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +398,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				33502484406023AF509E8F49630EDDFA /* HMCountryCode-dummy.m in Sources */,
+				7E63A7842BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift in Sources */,
+				7E63A77C2BEE25C000743FA7 /* CountryDropdownView.swift in Sources */,
+				7E63A77D2BEE25C000743FA7 /* CountryDropdownViewModel.swift in Sources */,
+				7E63A7822BEE2B9600743FA7 /* CountryCodeTextField.swift in Sources */,
 				AA013E4AFFA60A71B7D43ACADD4CF8DA /* ReplaceMe.swift in Sources */,
+				7E63A77F2BEE25C000743FA7 /* CountryCodeVM.swift in Sources */,
+				7E63A7802BEE25C000743FA7 /* CountryCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +450,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HMCountryCode_Tests/Pods-HMCountryCode_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HMCountryCode_Tests/Pods-HMCountryCode_Tests.modulemap";
@@ -455,7 +483,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HMCountryCode_Tests/Pods-HMCountryCode_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HMCountryCode_Tests/Pods-HMCountryCode_Tests.modulemap";
@@ -489,7 +517,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HMCountryCode/HMCountryCode-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HMCountryCode/HMCountryCode-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HMCountryCode/HMCountryCode.modulemap";
 				PRODUCT_MODULE_NAME = HMCountryCode;
@@ -520,7 +548,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HMCountryCode_Example/Pods-HMCountryCode_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HMCountryCode_Example/Pods-HMCountryCode_Example.modulemap";
@@ -588,13 +616,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -616,7 +643,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HMCountryCode/HMCountryCode-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HMCountryCode/HMCountryCode-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HMCountryCode/HMCountryCode.modulemap";
 				PRODUCT_MODULE_NAME = HMCountryCode;
@@ -685,7 +712,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -714,7 +741,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HMCountryCode_Example/Pods-HMCountryCode_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HMCountryCode_Example/Pods-HMCountryCode_Example.modulemap";

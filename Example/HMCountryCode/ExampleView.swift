@@ -7,13 +7,31 @@
 //
 
 import SwiftUI
+import HMCountryCode
 
 struct ExampleView: View {
+
+    @ObservedObject var myVM  = ExampleViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        CountryCodeTextField(placeHolder: "Enter your mobile number",
+                             mobileNumber: $myVM.mobileNumber,
+                             mCountryCode: $myVM.mCountryCode,
+                             isPopDropdown: $myVM.isPopDropdown) { code in
+            
+        }
     }
 }
 
 #Preview {
     ExampleView()
 }
+
+class ExampleViewModel : ObservableObject {
+    
+    @Published var mobileNumber = ""
+    @Published var mCountryCode : CountryCode = CountryCode.defaultCountryCode
+    @Published var isPopDropdown : Bool = false
+    
+}
+
