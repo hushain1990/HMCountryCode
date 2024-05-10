@@ -1,0 +1,6 @@
+framework module HMCountryCode {
+  umbrella header "HMCountryCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

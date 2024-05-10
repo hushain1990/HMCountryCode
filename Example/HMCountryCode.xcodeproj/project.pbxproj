@@ -39,12 +39,12 @@
 		607FACE51AFB9204008FA782 /* HMCountryCode_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMCountryCode_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B3C4EDCE78446CDB494FF0A /* HMCountryCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HMCountryCode.podspec; path = ../HMCountryCode.podspec; sourceTree = "<group>"; };
+		7B3C4EDCE78446CDB494FF0A /* HMCountryCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HMCountryCode.podspec; path = ../HMCountryCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9861B7D967067D6AB30B2552 /* Pods-HMCountryCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMCountryCode_Tests.release.xcconfig"; path = "Target Support Files/Pods-HMCountryCode_Tests/Pods-HMCountryCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A25A54C7EDE711E78C4DD070 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A25A54C7EDE711E78C4DD070 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C49DB7E48D1F3D74F5DE1010 /* Pods_HMCountryCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMCountryCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA5874392760990B3610991 /* Pods-HMCountryCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMCountryCode_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HMCountryCode_Tests/Pods-HMCountryCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1CD46F761DF3B7F79B83160 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D1CD46F761DF3B7F79B83160 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D860A61CADFA6CCC4B8EE2F1 /* Pods-HMCountryCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMCountryCode_Example.debug.xcconfig"; path = "Target Support Files/Pods-HMCountryCode_Example/Pods-HMCountryCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E84CC7A954DE6B4C68E91D3B /* Pods_HMCountryCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMCountryCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				CDA5874392760990B3610991 /* Pods-HMCountryCode_Tests.debug.xcconfig */,
 				9861B7D967067D6AB30B2552 /* Pods-HMCountryCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

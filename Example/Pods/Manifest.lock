@@ -1,0 +1,16 @@
+PODS:
+  - HMCountryCode (0.1.0)
+
+DEPENDENCIES:
+  - HMCountryCode (from `../`)
+
+EXTERNAL SOURCES:
+  HMCountryCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HMCountryCode: 5bf87c8785e7e7fb4242d25b8043b6d54c0dacd2
+
+PODFILE CHECKSUM: 8efa24b8f1cb43cf59d2ad8627da46a585277f0f
+
+COCOAPODS: 1.15.2
