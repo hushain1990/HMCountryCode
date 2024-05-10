@@ -17,8 +17,8 @@
 		7E63A77E2BEE25C000743FA7 /* CountryCode.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E63A7792BEE25C000743FA7 /* CountryCode.json */; };
 		7E63A77F2BEE25C000743FA7 /* CountryCodeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A77A2BEE25C000743FA7 /* CountryCodeVM.swift */; };
 		7E63A7802BEE25C000743FA7 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A77B2BEE25C000743FA7 /* CountryCode.swift */; };
-		7E63A7822BEE2B9600743FA7 /* CountryCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7812BEE2B9600743FA7 /* CountryCodeTextField.swift */; };
-		7E63A7842BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7832BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift */; };
+		7E63A7872BEE3D8600743FA7 /* CountryCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7852BEE3D8600743FA7 /* CountryCodeTextField.swift */; };
+		7E63A7882BEE3D8600743FA7 /* CountryCodeTextField_Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E63A7862BEE3D8600743FA7 /* CountryCodeTextField_Line.swift */; };
 		9293913CCA00A2879CE48BFFD89E309B /* Pods-HMCountryCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34000C985082706307E62C8F1CA4A84B /* Pods-HMCountryCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A63558105F20FFC76357715377D1F7D2 /* Pods-HMCountryCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B35EF9BF7F3F624A96570B93A81F6 /* Pods-HMCountryCode_Example-dummy.m */; };
 		AA013E4AFFA60A71B7D43ACADD4CF8DA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF329F2A9DA869FA47A31E77D9D39EF /* ReplaceMe.swift */; };
@@ -67,8 +67,8 @@
 		7E63A7792BEE25C000743FA7 /* CountryCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CountryCode.json; path = HMCountryCode/Classes/CountryCode.json; sourceTree = "<group>"; };
 		7E63A77A2BEE25C000743FA7 /* CountryCodeVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCodeVM.swift; path = HMCountryCode/Classes/CountryCodeVM.swift; sourceTree = "<group>"; };
 		7E63A77B2BEE25C000743FA7 /* CountryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = HMCountryCode/Classes/CountryCode.swift; sourceTree = "<group>"; };
-		7E63A7812BEE2B9600743FA7 /* CountryCodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTextField.swift; sourceTree = "<group>"; };
-		7E63A7832BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTextField_Line.swift; sourceTree = "<group>"; };
+		7E63A7852BEE3D8600743FA7 /* CountryCodeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCodeTextField.swift; path = HMCountryCode/Classes/CountryCodeTextField.swift; sourceTree = "<group>"; };
+		7E63A7862BEE3D8600743FA7 /* CountryCodeTextField_Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCodeTextField_Line.swift; path = HMCountryCode/Classes/CountryCodeTextField_Line.swift; sourceTree = "<group>"; };
 		8E39F3DA6E4C1DD95EBBAD7910CC83D9 /* Pods_HMCountryCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMCountryCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		971E9B7ACBC35053D1FF1621F8C3AFEF /* Pods-HMCountryCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMCountryCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9BBFF06A9E582D9067E8E67B6B05B4F9 /* HMCountryCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMCountryCode-umbrella.h"; sourceTree = "<group>"; };
@@ -210,6 +210,8 @@
 		C36879104FF112ABB03F31E33A757B8F /* HMCountryCode */ = {
 			isa = PBXGroup;
 			children = (
+				7E63A7862BEE3D8600743FA7 /* CountryCodeTextField_Line.swift */,
+				7E63A7852BEE3D8600743FA7 /* CountryCodeTextField.swift */,
 				7E63A7792BEE25C000743FA7 /* CountryCode.json */,
 				7E63A77B2BEE25C000743FA7 /* CountryCode.swift */,
 				7E63A77A2BEE25C000743FA7 /* CountryCodeVM.swift */,
@@ -218,8 +220,6 @@
 				3BF329F2A9DA869FA47A31E77D9D39EF /* ReplaceMe.swift */,
 				835AFC941E357B9B467C92D7ADF5FAEC /* Pod */,
 				691F997C20389E0812D99E7BDB8AA130 /* Support Files */,
-				7E63A7812BEE2B9600743FA7 /* CountryCodeTextField.swift */,
-				7E63A7832BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift */,
 			);
 			name = HMCountryCode;
 			path = ../..;
@@ -398,10 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				33502484406023AF509E8F49630EDDFA /* HMCountryCode-dummy.m in Sources */,
-				7E63A7842BEE2C8B00743FA7 /* CountryCodeTextField_Line.swift in Sources */,
+				7E63A7882BEE3D8600743FA7 /* CountryCodeTextField_Line.swift in Sources */,
 				7E63A77C2BEE25C000743FA7 /* CountryDropdownView.swift in Sources */,
 				7E63A77D2BEE25C000743FA7 /* CountryDropdownViewModel.swift in Sources */,
-				7E63A7822BEE2B9600743FA7 /* CountryCodeTextField.swift in Sources */,
+				7E63A7872BEE3D8600743FA7 /* CountryCodeTextField.swift in Sources */,
 				AA013E4AFFA60A71B7D43ACADD4CF8DA /* ReplaceMe.swift in Sources */,
 				7E63A77F2BEE25C000743FA7 /* CountryCodeVM.swift in Sources */,
 				7E63A7802BEE25C000743FA7 /* CountryCode.swift in Sources */,
